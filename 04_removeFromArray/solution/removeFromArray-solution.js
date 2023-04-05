@@ -2,6 +2,7 @@
 // The easiest way to get an array of the rest of the arguments that are passed to a function
 // is using the rest operator. If this is unfamiliar to you look it up!
 const removeFromArray = function (array, ...args) {
+  //-> rest operator is "..."
   // create a new empty array
   const newArray = [];
   // use forEach to go through the array
